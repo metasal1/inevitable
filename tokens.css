@@ -1,0 +1,23 @@
+:root {
+  --ground: #000000;
+  --ink: #ffffff;
+  --accent-purple: #800080;
+  --accent-blue: #0000ff;
+  --accent-red: #ff0000;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --tracking-wordmark: -0.03em;
+  --size-canvas: 1080px;
+  --size-min: 48px;
+  --size-floor: 32px;
+  --size-bar-width: 101;
+  --size-bar-height: 22;
+  --size-bar-centre-x: 50.5;
+  --size-bar-centre-y: 10.9;
+  --size-scale: 5.1;
+  --size-gap: 7;
+  --size-stem: 22; /* bar short side; clear space on all sides */
+}

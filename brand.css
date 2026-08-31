@@ -1,0 +1,456 @@
+@import url("tokens.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-regular);
+  font-size: 13px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--ground);
+  color: var(--ink);
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--ground);
+}
+
+a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.page {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2.5rem 2.75rem 8rem;
+}
+
+/* Cover */
+
+.cover {
+  min-height: 100vh;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 3.5rem 2.75rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cover-meta {
+  font-size: 11px;
+  font-weight: var(--font-weight-regular);
+  margin-bottom: 4.5rem;
+}
+
+.cover-mark {
+  width: min(72vw, 22rem);
+  height: auto;
+  margin: 0 0 3.25rem -1.15rem;
+}
+
+.wordmark {
+  font-weight: var(--font-weight-semibold);
+  font-size: 1.35rem;
+  letter-spacing: var(--tracking-wordmark);
+  line-height: 1.2;
+}
+
+.cover-line {
+  margin-top: 0.45rem;
+  font-size: 13px;
+  font-weight: var(--font-weight-regular);
+}
+
+/* Contents */
+
+nav.contents {
+  padding: 0 0 0.5rem;
+}
+
+nav.contents ol {
+  list-style: none;
+}
+
+nav.contents li {
+  border-top: 1px solid var(--ink);
+}
+
+nav.contents li:last-child {
+  border-bottom: 1px solid var(--ink);
+}
+
+nav.contents a {
+  display: flex;
+  gap: 1.25rem;
+  align-items: baseline;
+  text-decoration: none;
+  padding: 0.7rem 0;
+}
+
+nav.contents a:hover {
+  text-decoration: none;
+}
+
+nav.contents .n {
+  font-size: 11px;
+  width: 2rem;
+  flex: none;
+}
+
+/* Sections */
+
+section {
+  margin-top: 5rem;
+  padding-top: 1.15rem;
+  border-top: 1px solid var(--ink);
+}
+
+section > h2 {
+  font-size: 13px;
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.01em;
+  margin-bottom: 1.75rem;
+}
+
+section > h2 .n {
+  font-weight: var(--font-weight-regular);
+  margin-right: 0.9rem;
+}
+
+p {
+  margin-bottom: 0.9rem;
+  max-width: 36rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 13px;
+  font-weight: var(--font-weight-semibold);
+  margin: 2.25rem 0 0.7rem;
+}
+
+/* Spec list */
+
+dl.spec {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  gap: 0.35rem 1.25rem;
+  margin: 1.75rem 0 0;
+  max-width: 36rem;
+}
+
+dl.spec dt {
+  font-weight: var(--font-weight-medium);
+}
+
+dl.spec dd {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+
+.unit-pad {
+  background: var(--ink);
+  padding: 2.25rem 2rem;
+  margin: 1.75rem 0 0;
+  display: inline-block;
+}
+
+.unit-pad img {
+  width: 15.5rem;
+  height: auto;
+}
+
+/* Applications */
+
+.apps {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 1.75rem;
+}
+
+.app {
+  max-width: 16rem;
+}
+
+.app img {
+  width: 16rem;
+  height: 16rem;
+  object-fit: contain;
+}
+
+.app.invert img {
+  background: var(--ink);
+}
+
+.app.trans img {
+  outline: 1px solid var(--ink);
+  outline-offset: -1px;
+}
+
+.app.trans-black img {
+  background: var(--ink);
+}
+
+.app figcaption {
+  margin-top: 0.65rem;
+  font-size: 12px;
+}
+
+.app figcaption .mono {
+  display: block;
+  margin-top: 0.15rem;
+}
+
+/* Clear space diagram */
+
+.clear-fig {
+  margin: 1.75rem 0 0;
+  width: min(100%, 22rem);
+}
+
+.clear-fig svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.clear-fig figcaption {
+  margin-top: 0.65rem;
+}
+
+/* Size */
+
+.sizes {
+  display: flex;
+  align-items: flex-end;
+  gap: 3rem;
+  margin-top: 1.75rem;
+}
+
+.sizes figure {
+  text-align: left;
+}
+
+.sizes img {
+  background: var(--ground);
+}
+
+.sizes figcaption {
+  margin-top: 0.55rem;
+  font-size: 12px;
+}
+
+.sizes .never figcaption {
+  text-decoration: line-through;
+}
+
+/* Colour */
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem 2rem;
+  margin: 1.75rem 0 0;
+}
+
+.chip {
+  width: 4.5rem;
+  height: 4.5rem;
+  display: block;
+}
+
+.chip-ground {
+  background: var(--ground);
+  outline: 1px solid var(--ink);
+  outline-offset: -1px;
+}
+
+.chip-ink {
+  background: var(--ink);
+}
+
+.chip-purple {
+  background: var(--accent-purple);
+}
+
+.chip-blue {
+  background: var(--accent-blue);
+}
+
+.chip-red {
+  background: var(--accent-red);
+}
+
+.chips figcaption {
+  margin-top: 0.5rem;
+  font-size: 12px;
+}
+
+.chips figcaption .mono {
+  display: block;
+  margin-top: 0.1rem;
+}
+
+.note {
+  margin-top: 1.75rem;
+}
+
+/* Type specimen */
+
+.specimen {
+  margin-top: 1.5rem;
+}
+
+.specimen .row {
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--ink);
+}
+
+.specimen .row:last-child {
+  border-bottom: 1px solid var(--ink);
+}
+
+.specimen .w {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.specimen .sample-400 {
+  font-weight: 400;
+  font-size: 1.35rem;
+  letter-spacing: -0.015em;
+}
+
+.specimen .sample-500 {
+  font-weight: 500;
+  font-size: 1.35rem;
+  letter-spacing: -0.015em;
+}
+
+.specimen .sample-600 {
+  font-weight: 600;
+  font-size: 1.35rem;
+  letter-spacing: -0.015em;
+}
+
+.wordmark-lg {
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: var(--tracking-wordmark);
+  line-height: 1.2;
+  margin: 1.25rem 0 0.35rem;
+}
+
+/* Use / don't */
+
+.use,
+.dont {
+  margin-top: 2.25rem;
+  max-width: 16rem;
+}
+
+.use img,
+.dont img {
+  width: 16rem;
+  height: 16rem;
+  object-fit: contain;
+}
+
+.use figcaption,
+.dont figcaption {
+  margin-top: 0.65rem;
+  font-size: 12px;
+}
+
+.dont .label {
+  color: var(--accent-red);
+  font-weight: var(--font-weight-semibold);
+  margin-right: 0.4rem;
+}
+
+.use .label {
+  font-weight: var(--font-weight-semibold);
+  margin-right: 0.4rem;
+}
+
+/* LinkedIn */
+
+.avatar {
+  width: 12rem;
+  height: 12rem;
+  margin-top: 1.75rem;
+}
+
+.avatar img {
+  width: 12rem;
+  height: 12rem;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 4.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--ink);
+  font-size: 12px;
+}
+
+.follow {
+  margin-top: 1.75rem;
+}
+
+footer p {
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 40rem) {
+  .page,
+  .cover {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .cover-mark {
+    margin-left: -0.5rem;
+  }
+}

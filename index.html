@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inevitable — graphic standards</title>
+  <meta name="description" content="Graphic standards for inevitable, a weekly note on Solana in AU/NZ.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap">
+  <link rel="stylesheet" href="brand.css">
+  <link rel="icon" href="logo/mark-on-black-48.png" type="image/png">
+</head>
+<body>
+
+<header class="cover">
+  <p class="cover-meta">Graphic standards · 1 September 2026</p>
+  <img class="cover-mark" src="logo/mark-white.svg" width="1080" height="1080" alt="Inevitable capital I">
+  <p class="wordmark">inevitable</p>
+  <p class="cover-line">weekly note on Solana in AU/NZ</p>
+</header>
+
+<div class="page">
+
+<nav class="contents" aria-label="Contents">
+  <ol>
+    <li><a href="#construction"><span class="n">01</span> Construction</a></li>
+    <li><a href="#applications"><span class="n">02</span> Applications</a></li>
+    <li><a href="#clear-space"><span class="n">03</span> Clear space</a></li>
+    <li><a href="#size"><span class="n">04</span> Size</a></li>
+    <li><a href="#colour"><span class="n">05</span> Colour</a></li>
+    <li><a href="#type"><span class="n">06</span> Type</a></li>
+    <li><a href="#use"><span class="n">07</span> Use</a></li>
+    <li><a href="#linkedin"><span class="n">08</span> LinkedIn</a></li>
+  </ol>
+</nav>
+
+<section id="construction">
+  <h2><span class="n">01</span> Construction</h2>
+  <p>The mark is a capital I. The I is the display character.</p>
+  <p>It is three copies of one official Solana parallelogram — the top bar of <span class="mono">solanaLogoMark.svg</span>. Rounding is kept. There is no gradient.</p>
+  <div class="unit-pad">
+    <img src="logo/unit-bar.svg" width="101" height="22" alt="Unit parallelogram, 101 by 22">
+  </div>
+  <dl class="spec">
+    <dt>Bar</dt>
+    <dd>101 × 22</dd>
+    <dt>Centre</dt>
+    <dd>50.5, 10.9</dd>
+    <dt>Gap</dt>
+    <dd>7 — the field. They do not touch.</dd>
+    <dt>Canvas</dt>
+    <dd>1080 × 1080</dd>
+    <dt>Scale</dt>
+    <dd>5.1</dd>
+    <dt>Group</dt>
+    <dd>translate(540, 540) scale(5.1)</dd>
+    <dt>Stem</dt>
+    <dd>rotate(−90) translate(−50.5, −10.9)</dd>
+    <dt>Top</dt>
+    <dd>translate(−50.5, −79.3) — original</dd>
+    <dt>Bottom</dt>
+    <dd>translate(−50.5, 57.5) — original, not flipped</dd>
+  </dl>
+  <p class="follow">Top and bottom are the same bar, same way up. The stem is that bar stood on end. Signed off 1 September 2026.</p>
+</section>
+
+<section id="applications">
+  <h2><span class="n">02</span> Applications</h2>
+  <p>Default is ink on ground. Invert is allowed. The mark is monochrome only.</p>
+  <div class="apps">
+    <figure class="app">
+      <img src="logo/mark-on-black.svg" width="1080" height="1080" alt="Primary mark, white I on black">
+      <figcaption>Primary<span class="mono">mark-on-black · ink on ground</span></figcaption>
+    </figure>
+    <figure class="app invert">
+      <img src="logo/mark-on-white.svg" width="1080" height="1080" alt="Invert mark, black I on white">
+      <figcaption>Invert<span class="mono">mark-on-white · allowed, not default</span></figcaption>
+    </figure>
+    <figure class="app trans trans-white">
+      <img src="logo/mark-white.svg" width="1080" height="1080" alt="White I, transparent ground">
+      <figcaption>Transparent, white<span class="mono">mark-white.svg</span></figcaption>
+    </figure>
+    <figure class="app trans trans-black">
+      <img src="logo/mark-black.svg" width="1080" height="1080" alt="Black I, transparent ground">
+      <figcaption>Transparent, black<span class="mono">mark-black.svg</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="clear-space">
+  <h2><span class="n">03</span> Clear space</h2>
+  <p>Keep one stem-width of field on all sides. Stem-width is the bar’s short side: <span class="mono">22</span> in bar units, <span class="mono">112.2px</span> on the 1080 canvas.</p>
+  <figure class="clear-fig">
+    <svg viewBox="0 0 1080 1080" width="1080" height="1080" aria-label="Mark with one stem-width clear space">
+  <rect x="170.25" y="23.37" width="739.5" height="1033.21" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="10 10"/>
+  <g transform="translate(540,540) scale(5.1)">
+    <g transform="rotate(-90) translate(-50.5,-10.9)">
+      <path d="M1.93563 21.7905H80.9743C81.5055 21.7907 82.0312 21.6845 82.5185 21.4783C83.0058 21.2721 83.4444 20.9704 83.8068 20.592L100.48 3.17219C100.737 2.90357 100.908 2.56758 100.972 2.2055C101.036 1.84342 100.99 1.47103 100.84 1.13408C100.689 0.79713 100.441 0.510296 100.126 0.308823C99.8104 0.107349 99.4415 1.24074e-05 99.0644 0L20.0301 0C19.5002 0.000878397 18.9762 0.107699 18.4904 0.313848C18.0047 0.519998 17.5676 0.821087 17.2061 1.19848L0.524723 18.6183C0.267681 18.8866 0.0966198 19.2223 0.0325185 19.5839C-0.0315829 19.9456 0.0140624 20.3177 0.163856 20.6545C0.31365 20.9913 0.561081 21.2781 0.875804 21.4799C1.19053 21.6817 1.55886 21.7896 1.93563 21.7905Z" fill="#ffffff"/>
+    </g>
+    <g transform="translate(-50.5,-79.3)">
+      <path d="M1.93563 21.7905H80.9743C81.5055 21.7907 82.0312 21.6845 82.5185 21.4783C83.0058 21.2721 83.4444 20.9704 83.8068 20.592L100.48 3.17219C100.737 2.90357 100.908 2.56758 100.972 2.2055C101.036 1.84342 100.99 1.47103 100.84 1.13408C100.689 0.79713 100.441 0.510296 100.126 0.308823C99.8104 0.107349 99.4415 1.24074e-05 99.0644 0L20.0301 0C19.5002 0.000878397 18.9762 0.107699 18.4904 0.313848C18.0047 0.519998 17.5676 0.821087 17.2061 1.19848L0.524723 18.6183C0.267681 18.8866 0.0966198 19.2223 0.0325185 19.5839C-0.0315829 19.9456 0.0140624 20.3177 0.163856 20.6545C0.31365 20.9913 0.561081 21.2781 0.875804 21.4799C1.19053 21.6817 1.55886 21.7896 1.93563 21.7905Z" fill="#ffffff"/>
+    </g>
+    <g transform="translate(-50.5,57.5)">
+      <path d="M1.93563 21.7905H80.9743C81.5055 21.7907 82.0312 21.6845 82.5185 21.4783C83.0058 21.2721 83.4444 20.9704 83.8068 20.592L100.48 3.17219C100.737 2.90357 100.908 2.56758 100.972 2.2055C101.036 1.84342 100.99 1.47103 100.84 1.13408C100.689 0.79713 100.441 0.510296 100.126 0.308823C99.8104 0.107349 99.4415 1.24074e-05 99.0644 0L20.0301 0C19.5002 0.000878397 18.9762 0.107699 18.4904 0.313848C18.0047 0.519998 17.5676 0.821087 17.2061 1.19848L0.524723 18.6183C0.267681 18.8866 0.0966198 19.2223 0.0325185 19.5839C-0.0315829 19.9456 0.0140624 20.3177 0.163856 20.6545C0.31365 20.9913 0.561081 21.2781 0.875804 21.4799C1.19053 21.6817 1.55886 21.7896 1.93563 21.7905Z" fill="#ffffff"/>
+    </g>
+  </g>
+</svg>
+    <figcaption class="mono">dashed = one stem-width</figcaption>
+  </figure>
+</section>
+
+<section id="size">
+  <h2><span class="n">04</span> Size</h2>
+  <p>Minimum <span class="mono">48px</span> square. Never below <span class="mono">32px</span>.</p>
+  <div class="sizes">
+    <figure>
+      <img src="logo/mark-on-black-48.png" width="48" height="48" alt="Mark at 48 pixels">
+      <figcaption><span class="mono">48px</span> minimum</figcaption>
+    </figure>
+    <figure class="never">
+      <img src="logo/mark-on-black-48.png" width="32" height="32" alt="Mark at 32 pixels, too small">
+      <figcaption><span class="mono">32px</span> never</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="colour">
+  <h2><span class="n">05</span> Colour</h2>
+  <p>The mark is black or white. Nothing else.</p>
+  <div class="chips">
+    <figure>
+      <span class="chip chip-ground"></span>
+      <figcaption>Ground<span class="mono">#000000</span></figcaption>
+    </figure>
+    <figure>
+      <span class="chip chip-ink"></span>
+      <figcaption>Ink<span class="mono">#FFFFFF</span></figcaption>
+    </figure>
+  </div>
+  <h3>Editorial accents</h3>
+  <p>Never on the mark. Never as a gradient I. One at a time.</p>
+  <div class="chips">
+    <figure>
+      <span class="chip chip-purple"></span>
+      <figcaption>Purple<span class="mono">#800080</span></figcaption>
+    </figure>
+    <figure>
+      <span class="chip chip-blue"></span>
+      <figcaption>Blue<span class="mono">#0000FF</span></figcaption>
+    </figure>
+    <figure>
+      <span class="chip chip-red"></span>
+      <figcaption>Red<span class="mono">#FF0000</span></figcaption>
+    </figure>
+  </div>
+  <p class="note">Forbidden (Milysec lab): <span class="mono">#08D592</span> <span class="mono">#9C32DF</span> <span class="mono">#070A08</span> <span class="mono">#0C100D</span>.</p>
+</section>
+
+<section id="type">
+  <h2><span class="n">06</span> Type</h2>
+  <p>One family. Inter 400, 500, 600 from Google Fonts.</p>
+  <p>The wordmark is lowercase <span class="wordmark">inevitable</span> — Inter 600, slight negative tracking.</p>
+  <p class="wordmark-lg">inevitable</p>
+  <p class="mono">Inter 600 · tracking −0.03em</p>
+  <div class="specimen">
+    <div class="row">
+      <span class="w">400</span>
+      <span class="sample-400">The I is the display character.</span>
+    </div>
+    <div class="row">
+      <span class="w">500</span>
+      <span class="sample-500">The I is the display character.</span>
+    </div>
+    <div class="row">
+      <span class="w">600</span>
+      <span class="sample-600">The I is the display character.</span>
+    </div>
+  </div>
+  <p class="note">System <span class="mono">ui-monospace</span> only for hex and sizes, as here.</p>
+  <p>Forbidden: MoonWalk, Bricolage Grotesque, EconoSans, Monoton, Orbitron, Geist.</p>
+</section>
+
+<section id="use">
+  <h2><span class="n">07</span> Use</h2>
+  <p>Three copies, original bottom, ink on ground. Do not recolour, stack, or flip.</p>
+  <figure class="use">
+    <img src="logo/mark-on-black.svg" width="1080" height="1080" alt="Correct capital I, white on black">
+    <figcaption><span class="label">Use</span> capital I, original bottom</figcaption>
+  </figure>
+  <figure class="dont">
+    <img src="logo/dont-recolour.svg" width="1080" height="1080" alt="Incorrect: I filled with purple">
+    <figcaption><span class="label">DON’T</span> recolour the mark</figcaption>
+  </figure>
+  <figure class="dont">
+    <img src="logo/dont-stack.svg" width="1080" height="1080" alt="Incorrect: three bars stacked like the Solana S">
+    <figcaption><span class="label">DON’T</span> stack three bars like the Solana S</figcaption>
+  </figure>
+  <figure class="dont">
+    <img src="logo/dont-flip.svg" width="1080" height="1080" alt="Incorrect: bottom bar flipped">
+    <figcaption><span class="label">DON’T</span> flip the bottom bar</figcaption>
+  </figure>
+</section>
+
+<section id="linkedin">
+  <h2><span class="n">08</span> LinkedIn</h2>
+  <p>The newsletter avatar is the 1080 square. File: <span class="mono">logo/mark-on-black.png</span>.</p>
+  <figure class="avatar">
+    <img src="logo/mark-on-black.svg" width="1080" height="1080" alt="LinkedIn newsletter avatar, 1080 square">
+  </figure>
+  <p class="note mono">1080 × 1080</p>
+</section>
+
+<footer>
+  <p>inevitable · metasal1 / Sal</p>
+  <p>Community register. Not an official Solana or Solana ANZ logo. Not Milysec.</p>
+</footer>
+
+</div>
+</body>
+</html>

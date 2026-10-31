@@ -158,3 +158,11 @@ Also in `covers/`: paper / grain textures and newsletter cover frames from the t
 ## Related paths on the box
 
 Edition drafts live under `/workspace/inevitable/` (linkedin-body, draft notes, spoken, mp3). This repo is brand only, not the weekly draft archive.
+
+---
+
+## Publish gate (LinkedIn)
+
+Inevitable editions publish only on **Sal’s personal LinkedIn profile / Inevitable newsletter**. Never on Solana ANZ or Milysec company pages.
+
+Copy rules Social ships against: **onchain** / **offchain** as one word; no em dashes; no URLs in the letter body.

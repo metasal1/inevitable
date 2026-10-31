@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+<rect width="1080" height="1080" fill="#800080"/>
+  <g transform="translate(540,540) rotate(-90)">
+    <rect x="-280" y="-52" width="560" height="104" rx="34" fill="#fff" transform="skewX(-18)"/>
+  </g>
+</svg>

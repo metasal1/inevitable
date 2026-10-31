@@ -2,7 +2,7 @@
 
 Signed off 1 September 2026.
 
-**inevitable** is Sal’s weekly LinkedIn newsletter about Solana in AU/NZ. Community register, not Milysec lab. Taste: Jobs / Ive / Rams / Vignelli.
+**inevitable** is Sal’s weekly LinkedIn newsletter. Slogan: “the future is onchain”. Not a geo title. Community register, not Milysec lab. Taste: Jobs / Ive / Rams / Vignelli.
 
 The I is the display character.
 
@@ -117,3 +117,44 @@ Do not stretch, outline, drop-shadow, or rotate the I as a lockup. Do not put ty
 ## What this is not
 
 Not an official Solana logo. Not an official Solana ANZ logo. Not Milysec. The parallelogram geometry comes from the official Solana logo mark (Solana Foundation). This I is a derived community mark for the Inevitable newsletter. Do not claim the Solana trademark.
+
+---
+
+## Voice (editorial)
+
+Byline: **Sal Samani**. Personal LinkedIn newsletter: https://www.linkedin.com/newsletters/7500281370099740672/
+
+Slogan / closer (exact): **The future is onchain.**
+
+Cadence: every Tuesday.
+
+### Fixed sections (LinkedIn H2s)
+
+1. Opener / week thesis  
+2. New projects  
+3. Around the world  
+4. The technology  
+5. Why it's inevitable  
+6. Close: `The future is onchain.`
+
+### Sound
+
+Human, plain, conversational. Credit one-source figures in the copy. Hedge plans vs launches. Never use em dashes. Never say “hub”. Never mention Superteam.
+
+### Do not rewrite
+
+Solana Capital & Chain is a source, not a draft to republish. Steal facts; keep Sal’s voice.
+
+---
+
+## Covers
+
+Weekly LinkedIn cover default: `covers/weekly-cover-1920x1080.png` (1920×1080). Reuse unless Sal asks for a new one.
+
+Also in `covers/`: paper / grain textures and newsletter cover frames from the taste catalogue. Prefer the signed paper-fibre black field with the three-bar I; do not swap in Milysec mint or Solana ANZ heat-map covers.
+
+---
+
+## Related paths on the box
+
+Edition drafts live under `/workspace/inevitable/` (linkedin-body, draft notes, spoken, mp3). This repo is brand only, not the weekly draft archive.

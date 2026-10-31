@@ -18,21 +18,23 @@ Repo: [github.com/metasal1/inevitable](https://github.com/metasal1/inevitable)
 ## File map
 
 ```
-index.html          style guide page
+index.html          style guide page (open this)
 brand.css           page styles
 tokens.css          colour, type, size variables
 tokens.json         same, machine-readable
-STYLEGUIDE.md       rules in writing
+STYLEGUIDE.md       graphic + editorial rules
 LICENSE             composition copyright + mark note + MIT for HTML/CSS
 logo/
-  mark-on-black.svg .png -384.png -48.png   primary (1080)
-  mark-on-white.svg .png -384.png -48.png   invert
-  mark-white.svg                            white I, transparent
-  mark-black.svg                            black I, transparent
-  unit-bar.svg                              official single parallelogram
-  dont-recolour.svg                         DON’T: purple I
-  dont-stack.svg                            DON’T: Solana S stack
-  dont-flip.svg                             DON’T: flipped bottom
+  mark-on-black.*   primary (1080 / 384 / 48)
+  mark-on-white.*   invert
+  mark-white/black  transparent I
+  unit-bar.svg      official single parallelogram
+  dont-*.svg        forbidden treatments
+covers/
+  weekly-cover-1920x1080.png   default LinkedIn cover
+  inevitable-newsletter-*.png  cover frames
+  inevitable-cover-*.png       paper / grain textures
+marks/              exploration marks (not primary)
 ```
 
 ## Locked
